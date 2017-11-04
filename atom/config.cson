@@ -1,0 +1,91 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "about"
+      "busy-signal"
+      "wrap-guide"
+      "welcome"
+      "timecop"
+      "whitespace"
+      "spell-check"
+      "package-generator"
+      "metrics"
+      "language-objective-c"
+      "language-java"
+      "language-csharp"
+      "language-coffee-script"
+      "language-clojure"
+      "prettier-atom"
+      "linter"
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "FiraCode-Medium"
+    fontSize: 19
+    softWrap: true
+  "exception-reporting":
+    userId: "b496eca0-0732-441a-90e8-5f6e5d3e1284"
+  fonts:
+    fontFamily: "Hack"
+  "go-plus":
+    disabledBundledPackages: [
+      "linter"
+    ]
+    panel: {}
+  "linter-ui-default": {}
+  nuclide:
+    "nuclide-flow":
+      enableTypeHints: false
+      flowAutocompleteResultsFirst: false
+      warnOnNotInstalled: false
+    "nuclide-hg-repository":
+      enableDiffStats: true
+    "nuclide-home":
+      showHome: false
+    "nuclide-remote-projects":
+      connectionProfiles: [
+        {
+          deletable: true
+          displayTitle: "78.45"
+          params:
+            displayTitle: "78.45"
+            username: "root"
+            server: "192.168.78.45"
+            cwd: "/home/root/"
+            sshPort: "22"
+            authMethod: "PRIVATE_KEY"
+            pathToPrivateKey: "/Users/robbin/.ssh/id_rsa"
+            remoteServerCommand: ""
+          saveable: true
+        }
+        {
+          deletable: true
+          displayTitle: "90.67phab"
+          params:
+            displayTitle: "90.67phab"
+            username: "data"
+            server: "192.168.90.67"
+            cwd: "/opt/wwwroot/www.zys2.com"
+            sshPort: "22"
+            authMethod: "PASSWORD"
+            pathToPrivateKey: "/Users/robbin/.ssh/id_rsa"
+            remoteServerCommand: ""
+          saveable: true
+        }
+      ]
+  welcome:
+    showOnStartup: false
