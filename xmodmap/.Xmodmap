@@ -1,0 +1,12 @@
+clear lock
+clear control
+
+!swap alt and super
+keycode 64 = Super_L
+keycode 133 = Alt_L
+
+!swap Caps_Lock and control
+!add Super_L to control
+remove Mod4 = Super_L
+add control = Caps_Lock Control_L  Super_L
+keycode 66 = Control_L Control_L NoSymbol NoSymbol
